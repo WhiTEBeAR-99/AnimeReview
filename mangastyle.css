@@ -1,0 +1,70 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #141229;
+    text-align: center;
+}
+
+/* ---Bắt đầu phần header--- */
+.header {
+    width: 1208px;
+    height: 100px;
+    margin: auto;
+    background-color: #141229;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.td {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lalezar', cursive;
+    padding-left: 30px;
+}
+.logo img{
+    width: 180px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+/* ---Bắt đầu phần thân NỘI DUNG web--- */
+article.slider-banner-nho {
+    width: 290px;
+    height: 206px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+article.slider-banner-nho img {
+    width: 100%;
+}
+
+article.slider-banner-nho a.tentruyen {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+article.slide-banner-nho a.chaptruyen {
+    text-decoration: none;
+    background-color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ---Bắt đầu phần footer--- */
+.footer {
+    background-color: #292845;
+    color: white;
+    text-align: center;
+    margin-top: 500px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
