@@ -64,6 +64,13 @@ body {
     font-size: 80px;
     text-align: center;
     position: absolute;
+
+    transition: 0.2s;
+}
+
+.banner p:hover {
+    font-size: 85px;
+    color: cornsilk;
 }
 
 /* ---Bắt đầu phần ngăn cách header/banner và phần thân--- */

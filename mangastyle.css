@@ -118,29 +118,30 @@ a.item-gt.to .bottom-shadow {
 
 a.item-gt .ten-truyen {
     width: 290px;
-    height: 185px;
-    padding: 165px 5px;
 
     position: absolute;
     z-index: 3;
-    top: 0px;
-    left: 0px;
+    top: 165px;
+    left: 5px;
 
     transition: 0.4s;
 }
 
 a.item-gt:hover .ten-truyen {
-    padding: 155px 10px;
+    top: 145px;
+    left: 10px
 }
 
 a.item-gt.to .ten-truyen {
     width: 583px;
-    height: 380px;
-    padding: 358px 5px;
+
+    top: 358px;
+    left: 5px;
 }
 
 a.item-gt.to:hover .ten-truyen {
-    padding: 350px 10px;
+    top: 350px;
+    left: 10px;
 }
 
 a.item-gt .chapter {
@@ -180,12 +181,50 @@ a.item-gt.to:hover .chapter {
 }
 
 /* Bắt đầu phần NỘI DUNG web */
-.sec-content {
+h2 {
     margin-top: 10px;
-    background-color: #292845;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
 }
 
+.sec-content {
+    width: 1280px;
+    margin: auto;
+    background-color: #292845;
+    display: flex;
+    flex-wrap: wrap;
 
+    position: relative;
+}
+
+a.obj-main .bia-truyen {
+    width: 190px;
+    height: 247px;
+}
+
+a.obj-main .bot-shadow {
+    width: 190px;
+    height: 247px;
+
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 85%, rgba(0, 0, 0, 0.8) 90%);
+}
+
+a.obj-main .chap {
+    text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+    position: absolute;
+    z-index: 3;
+    top: 225px;
+    left: 110px;
+}
 
 /* ---Bắt đầu phần footer--- */
 .footer {
