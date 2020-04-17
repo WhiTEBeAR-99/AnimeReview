@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
 }
-html, body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
+
 body {
     background-color: #141229;
     /* text-align: center; */
-} 
+}
 
 /* ---Bắt đầu phần header--- */
 .header {
@@ -21,8 +24,10 @@ body {
     background-color: #141229;
     display: flex;
     /* justify-content: space-around; */
+    justify-content: center;
     align-items: center;
 }
+
 .td {
     text-decoration: none;
     color: white;
@@ -30,7 +35,8 @@ body {
     font-family: 'Lalezar', cursive;
     padding-left: 30px;
 }
-.logo img{
+
+.logo img {
     width: 180px;
     height: 100px;
     padding-top: 20px;
@@ -44,12 +50,14 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 .banner img {
     /* width: 1887px;
     height: 800px; */
     width: 100%;
     height: 50%;
 }
+
 .banner p {
     color: white;
     font-family: 'Lalezar', cursive;
@@ -82,6 +90,7 @@ body {
     align-items: center;
     background-size: cover;
 }
+
 .tin {
     background-color: #292845;
     width: 1108px;
@@ -90,11 +99,13 @@ body {
     margin: 10px;
     border-radius: 15px;
 }
-.tin img{
+
+.tin img {
     width: 560px;
     height: 470px;
     float: right;
 }
+
 .tieudetin {
     color: #1BC2CA;
     font-family: 'Lalezar', cursive;
@@ -102,10 +113,12 @@ body {
     text-decoration: none;
     font-size: 25px;
     padding-top: 30px;
-    margin-top: 30px; /*chỉ có tác dụng khi có display: block */
+    margin-top: 30px;
+    /*chỉ có tác dụng khi có display: block */
     display: block;
     text-align: center;
 }
+
 .tin p {
     width: 480px;
     height: 470px;
